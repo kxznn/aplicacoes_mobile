@@ -1,7 +1,7 @@
 // importa as bibliotecas
 
 import 'package:appaula04/model/restaurant.dart';
-import 'package:appaula04/ui/widgets/restaurant/restaurantscreen.dart';
+import 'package:appaula04/ui/widgets/restaurant/restauranscreen.dart';
 import 'package:flutter/material.dart';
 
 class RestaurantWidget extends StatelessWidget {

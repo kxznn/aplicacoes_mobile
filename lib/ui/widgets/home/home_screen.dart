@@ -2,8 +2,8 @@ import 'package:appaula04/data/categories_data.dart';
 import 'package:appaula04/data/restaurant_data.dart';
 import 'package:appaula04/model/restaurant.dart';
 import 'package:appaula04/ui/_core/app_colors.dart';
-import 'package:appaula04/ui/widgets/home/widget/category_widget.dart';
-import 'package:appaula04/ui/widgets/home/widget/restaurant_widget.dart';
+import 'package:appaula04/ui/widgets/home/widgets/category_widget.dart';
+import 'package:appaula04/ui/widgets/home/widgets/restaurant_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

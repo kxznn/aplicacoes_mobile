@@ -1,6 +1,7 @@
 import 'package:appaula04/model/dish.dart';
 import 'package:appaula04/model/restaurant.dart';
 import 'package:appaula04/ui/_core/app_colors.dart';
+import 'package:appaula04/ui/_core/appbar.dart';
 import 'package:appaula04/ui/widgets/bag_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -12,7 +13,7 @@ class Restaurantscreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: getAppBar(context: context, title: restaurant.name),
       body: Center(
         child: Column(
           mainAxisSize: MainAxisSize.min,
