@@ -1,4 +1,4 @@
-
+// Arquivo para estilizar as cores do aplicativo
 
 import 'package:flutter/material.dart'; // biblioteca para os widgets do flutter
 
